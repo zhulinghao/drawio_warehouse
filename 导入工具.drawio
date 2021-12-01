@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T09:49:59.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="GptGsVLt6yHvepR5WNfo" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-01T10:16:11.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="knU88rWb16lixhp7VNTb" version="15.8.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1946" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3892" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M7a1UfoR2cArPOc2KeIE-41" value="第三方渠道" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-375" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="-413" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M7a1UfoR2cArPOc2KeIE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" source="M7a1UfoR2cArPOc2KeIE-43" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -106,10 +106,7 @@
             <mxPoint x="-50" y="840.1428571428571" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M7a1UfoR2cArPOc2KeIE-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;strokeWidth=2;" parent="1" source="M7a1UfoR2cArPOc2KeIE-48" target="M7a1UfoR2cArPOc2KeIE-41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M7a1UfoR2cArPOc2KeIE-48" value="神策服务器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="M7a1UfoR2cArPOc2KeIE-48" value="神策服务器&lt;br&gt;记录渠道信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-240" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M7a1UfoR2cArPOc2KeIE-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=11;strokeWidth=2;" parent="1" source="M7a1UfoR2cArPOc2KeIE-51" target="M7a1UfoR2cArPOc2KeIE-53" edge="1">
@@ -120,14 +117,14 @@
             <mxPoint x="90" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M7a1UfoR2cArPOc2KeIE-51" value="匹配成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="800" width="100" height="80" as="geometry" />
+        <mxCell id="M7a1UfoR2cArPOc2KeIE-51" value="ip、ua 相同&lt;br&gt;date 相差24小时内" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="800" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="M7a1UfoR2cArPOc2KeIE-53" value="事件表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="180" y="740" width="120" height="60" as="geometry" />
+        <mxCell id="M7a1UfoR2cArPOc2KeIE-53" value="events 表：APP 激活事件记录渠道值&lt;br&gt;users：记录渠道值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="190" y="740" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M7a1UfoR2cArPOc2KeIE-56" value="神策服务器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="180" y="890" width="120" height="60" as="geometry" />
+        <mxCell id="M7a1UfoR2cArPOc2KeIE-56" value="events 表：APP 激活事件记录无渠道值&lt;br&gt;users：无渠道值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="190" y="890" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M7a1UfoR2cArPOc2KeIE-57" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="115" y="750" width="30" height="20" as="geometry" />
@@ -147,69 +144,163 @@
             <mxPoint x="110" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M7a1UfoR2cArPOc2KeIE-69" value="安师大收到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=-25;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="760" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-1" target="zDTVzqGblw_5TJxMdudH-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-1" value="集成第三方推送SDK" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="1160" width="120" height="80" as="geometry" />
+          <mxGeometry x="-280" y="1340" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-2" target="zDTVzqGblw_5TJxMdudH-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-2" value="集成神策的 SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="-65" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-3" target="zDTVzqGblw_5TJxMdudH-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-3" value="把「推送 ID」通过profile_set 上报到 users 表中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="-65" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="zDTVzqGblw_5TJxMdudH-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-180" y="1370" as="sourcePoint" />
-            <mxPoint x="-180.5" y="1560" as="targetPoint" />
+            <mxPoint x="-120" y="1550" as="sourcePoint" />
+            <mxPoint x="-120.5" y="1740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-180" y="1370" as="sourcePoint" />
-            <mxPoint x="-180" y="1200" as="targetPoint" />
+            <mxPoint x="-120" y="1550" as="sourcePoint" />
+            <mxPoint x="-120" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-9" value="从第三方推送&lt;br&gt;&amp;nbsp;SDK 获取「推送 ID」" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-255" y="1280" width="130" height="30" as="geometry" />
+          <mxGeometry x="-195" y="1460" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="1440" as="targetPoint" />
+            <mxPoint x="160" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-10" value="在神策分析中&lt;br&gt;填写推送配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-220" y="1470" as="targetPoint" />
+            <mxPoint x="-160" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-16" value="建立用户分群&lt;br&gt;选择推送配置执行分群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1440" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-18" value="第三方平台推送消息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="1440" width="120" height="80" as="geometry" />
+          <mxGeometry x="-280" y="1620" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-19" value="把分群名给到第三方推送平台&lt;br&gt;执行推消息的动作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-185" y="1455" width="170" height="30" as="geometry" />
+          <mxGeometry x="-125" y="1635" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zDTVzqGblw_5TJxMdudH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-16" target="zDTVzqGblw_5TJxMdudH-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-220" y="1470" as="targetPoint" />
-            <mxPoint x="40" y="1470" as="sourcePoint" />
+            <mxPoint x="-160" y="1650" as="targetPoint" />
+            <mxPoint x="100" y="1650" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-23" value="发送渠道信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="700" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-25" value="&lt;span style=&quot;font-size: 11px&quot;&gt;触发 AppInstall 事件&lt;br&gt;记录用户的 ip、ua、date&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="715" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-28" target="zDTVzqGblw_5TJxMdudH-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-927" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-907" y="920" />
+              <mxPoint x="-907" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-28" value="第三方渠道" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-717" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-30" value="APP下载页面/&lt;br&gt;应用商店" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-547" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-32" value="用户下载APP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-712" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-33" value="用户启动APP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-547" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-35" target="zDTVzqGblw_5TJxMdudH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-35" value="神策服务器&lt;br&gt;记录渠道信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-967" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-38" target="zDTVzqGblw_5TJxMdudH-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-38" target="zDTVzqGblw_5TJxMdudH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-38" target="zDTVzqGblw_5TJxMdudH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-38" value="&lt;span&gt;IDFA/IMEI&amp;nbsp;&lt;/span&gt;相同&lt;br&gt;date 相差24小时内" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-987" y="1150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-39" value="events 表：APP 激活事件记录渠道值&lt;br&gt;users：记录渠道值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="1160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-40" value="events 表：APP 激活事件记录无渠道值&lt;br&gt;users：无渠道值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-41" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1017" y="1169" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-42" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1169" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="zDTVzqGblw_5TJxMdudH-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-907.23" y="920" as="sourcePoint" />
+            <mxPoint x="-907.29" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;strokeWidth=2;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zDTVzqGblw_5TJxMdudH-33" target="zDTVzqGblw_5TJxMdudH-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-667" y="1040" as="sourcePoint" />
+            <mxPoint x="-617" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-45" value="发送渠道信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-952" y="970" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-46" value="用户触达渠道链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="900" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-47" value="&lt;span style=&quot;font-size: 11px&quot;&gt;触发 AppInstall 事件&lt;br&gt;记录用户的 IDFA/IMEI&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-722" y="990" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-48" value="App&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;渠道追踪 - 精准渠道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="790" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-58" value="用户触达渠道链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="610" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zDTVzqGblw_5TJxMdudH-59" value="回调匹配结果&lt;br&gt;给第三方渠道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="1040" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
