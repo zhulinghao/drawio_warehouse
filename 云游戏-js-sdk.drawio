@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T13:14:51.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GWMqRMIvkiV8weYdP3bU" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T13:25:16.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YNKRKnICLwabBuWBec60" version="20.0.4" type="github">
   <diagram id="BA0isQy_YICqdeQ_zjqH" name="Page-1">
-    <mxGraphModel dx="1580" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,7 +111,7 @@
         <mxCell id="YnR-aYr6qyaMzow2zcmj-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-2" target="YnR-aYr6qyaMzow2zcmj-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YnR-aYr6qyaMzow2zcmj-2" value="获取到 bizData，执行 startGame" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-2" value="获取到 bizData，执行 连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YnR-aYr6qyaMzow2zcmj-7" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-4" target="YnR-aYr6qyaMzow2zcmj-6">
@@ -191,7 +191,7 @@
         <mxCell id="YnR-aYr6qyaMzow2zcmj-38" value="抛异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="970" y="940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YnR-aYr6qyaMzow2zcmj-42" value="游戏成功启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-42" value="游戏成功启动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1310" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YnR-aYr6qyaMzow2zcmj-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-53" target="YnR-aYr6qyaMzow2zcmj-56">
@@ -202,11 +202,11 @@
             <mxPoint x="827" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YnR-aYr6qyaMzow2zcmj-53" value="游戏运行中遇到&lt;br&gt;failed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-53" value="游戏运行中遇到&lt;br&gt;failed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="660" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YnR-aYr6qyaMzow2zcmj-56" value="抛出可重连消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1520" width="120" height="60" as="geometry" />
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-56" value="抛出可重连消息，&lt;br&gt;上层可调用提供的 API 进行手动重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YnR-aYr6qyaMzow2zcmj-61" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-60" target="YnR-aYr6qyaMzow2zcmj-63">
           <mxGeometry relative="1" as="geometry">
@@ -216,7 +216,10 @@
         <mxCell id="YnR-aYr6qyaMzow2zcmj-60" value="是否开启自动重连" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="1610" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YnR-aYr6qyaMzow2zcmj-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-63" target="YnR-aYr6qyaMzow2zcmj-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-63" value="根据现有 bizData 重新执行连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YnR-aYr6qyaMzow2zcmj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-65" target="YnR-aYr6qyaMzow2zcmj-2">
@@ -237,6 +240,43 @@
         </mxCell>
         <mxCell id="YnR-aYr6qyaMzow2zcmj-70" value="抛异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="810" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-91" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-77" target="YnR-aYr6qyaMzow2zcmj-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-77" value="是否开启自动重连" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1276.5" y="1610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-80" target="YnR-aYr6qyaMzow2zcmj-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="1490" />
+              <mxPoint x="1030" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-80" value="3000 ms 后执行重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-82" value="游戏继续进行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-89" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-86" target="YnR-aYr6qyaMzow2zcmj-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-86" target="YnR-aYr6qyaMzow2zcmj-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-92" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YnR-aYr6qyaMzow2zcmj-86" target="YnR-aYr6qyaMzow2zcmj-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1181.1428571428573" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-86" value="重连是否&lt;br&gt;成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="1610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YnR-aYr6qyaMzow2zcmj-94" value="抛异常，重连失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="1750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
